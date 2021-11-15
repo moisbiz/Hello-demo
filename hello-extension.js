@@ -14,7 +14,6 @@ $(document).ready(function () {
 
       // Display the name of dashboard in the UI
       $("#resultBox").html("I'm running in a dashboard named <strong>" + dashboard.name + "</strong>");
-      $("#helloWorld").html("hello world");
     }, function (err) {
 
       // something went wrong in initialization
